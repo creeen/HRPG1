@@ -12,7 +12,7 @@
 テストコミット
 </Comment>
 リターンコミット
-ああああ いいい ううう  eee kkkkk
+ああああ いいい ううう  eee kkkkk　同揃って？
 
 <Script>
 CBR-画像合成
