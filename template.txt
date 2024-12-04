@@ -1,0 +1,85 @@
+% 選択肢
+<ShowChoices: 背景, ウィンドウ位置, デフォルト, キャンセル>
+<When: 選択肢1の文>
+選択肢1を選んだ時の処理
+<When: 選択肢2の文>
+選択肢2を選んだ時の処理
+
+.
+.
+<When: 選択肢6の文>
+選択肢6を選んだ時の処理
+<WhenCancel>
+選択肢をキャンセルした時の処理
+<End>
+
+% 文字効果
+\{	文字サイズを 1 段階大きくする
+\}	文字サイズを 1 段階小さくする
+\.	文章の表示中に 1/4 秒間ウェイトする
+\|	文章の表示中に 1 秒間ウェイトする
+\!	文章の途中でボタンの入力待ちをする
+
+% 通常会話
+<CommonEvent: 11> 
+% 色調変更なし
+\n<\n[1]>
+
+<CommonEvent: 14>
+% 音声消去なし
+
+
+% 通常エロ会話
+<CommonEvent: 11> 
+% 色調変更なし
+\n<\n[1]>
+
+<CommonEvent: 13>
+% 音声消去あり
+
+
+% エロ会話
+<CommonEvent: 12> 
+% 色調変更あり
+\n<\n[1]>
+
+<CommonEvent: 13>
+% 音声消去あり
+
+
+% アイテム獲得１
+<PlaySE: 和風うれしいse3, 40, 110, 0>
+<PluginCommand: GDM_UNLOCK_MESSAGE_WINDOW>
+<WP: Middle><BG: Dim>
+\#　を手に入れた！
+<PluginCommand: GDM_LOCK_MESSAGE_WINDOW>
+<CommonEvent: 11> 
+
+\n<\n[1]>
+
+<CommonEvent: 14>
+<ChangeItems: 1, Increase, 1>
+<SelfSwitch: A, ON>
+
+
+% アイテム獲得２
+<PlaySE: 和風うれしいse3, 40, 110, 0>
+<PluginCommand: GDM_UNLOCK_MESSAGE_WINDOW>
+<WP: Middle><BG: Dim>
+\#　を見つけた！
+
+<WP: Middle><BG: Dim>
+\#持っていきますか？
+
+<ShowChoices><WP: Middle><BG: Dim>
+<When: いいえ>
+
+<End>
+<PluginCommand: GDM_LOCK_MESSAGE_WINDOW>
+<CommonEvent: 11> 
+% 色調変更なし
+\n<\n[1]>
+
+<CommonEvent: 14>
+% 音声消去なし
+<SelfSwitch: A, ON>

@@ -1,0 +1,536 @@
+{
+	"fontbig":{
+		"prefix": "fontbig",
+		"body": "\\{",
+		"description": "文字サイズを 1 段階大きくする"
+	},
+	"fontlittle":{
+		"prefix": "fontlittle",
+		"body": "\\\\}",
+		"description": "文字サイズを 1 段階小さくする"
+	},
+	"fontwait1/4":{
+		"prefix": "fontwait0.25",
+		"body": "\\.",
+		"description": "文章の表示中に 1/4 秒間ウェイトする"
+	},
+	"fontwait1":{
+		"prefix": "fontwait1",
+		"body": "\\|",
+		"description": "文章の表示中に 1 秒間ウェイトする"
+	},
+	"fontwaitb":{
+		"prefix": "fontwaitb",
+		"body": "\\!",
+		"description": "文章の途中でボタンの入力待ちをする"
+	},
+	"namebox":{
+		"prefix": "namebox",
+		"body": "<Name:$1>",
+		"description": "名前欄の指定"
+	},
+	"name":{
+		"prefix":"name",
+		"body":"\\n<\\n[$1]>$2",
+		"description":"名前欄の指定２"
+	},
+	"monolog":{
+		"prefix": "monolog",
+		"body": "<WindowPosition:Middle><Background:Dim>"
+	},
+	"variable": {
+		"prefix": "variable",
+		"body": "Variables[$1]",
+		"description": "変数の指定"
+	},
+	"switch": {
+		"prefix": "switch",
+		"body": "Switches[$1]",
+		"description": "スイッチの指定"
+	},
+	"random": {
+		"prefix": "random",
+		"body": "random[$1][$2]",
+		"description": "乱数設定"
+	},
+	"switch change": {
+		"prefix": "switch",
+		"body": [
+			"<Switch:$1,$2>",
+		],
+		"description": "スイッチ"
+	},
+	"switch on": {
+		"prefix": "switchon",
+		"body": [
+			"<Switch:$1-$2,ON>",
+		],
+		"description": "スイッチオン"
+	},
+	"switch off": {
+		"prefix": "switchoff",
+		"body": [
+			"<Switch:$1-$2,OFF>",
+		],
+		"description": "スイッチオフ"
+	},
+	"variable set": {
+		"prefix": [
+			"variableset",
+			"add"
+		],
+		"body": [
+			"<Set:$1-$2,$3>",
+		],
+		"description": "変数の設定"
+	},
+	"variable add": {
+		"prefix": [
+			"variableadd",
+			"add"
+		],
+		"body": [
+			"<Add:$1-$2,$3>",
+		],
+		"description": "変数の加算"
+	},
+	"variable sub": {
+		"prefix": [
+			"variablesub",
+			"sub"
+		],
+		"body": [
+			"<Sub:$1-$2,$3>",
+		],
+		"description": "変数の減算"
+	},
+	"variable mul": {
+		"prefix": [
+			"variablemul",
+			"mul"
+		],
+		"body": [
+			"<Mul:$1-$2,$3>",
+		],
+		"description": "変数の乗算"
+	},
+	"variable div": {
+		"prefix": [
+			"variablediv",
+			"div"
+		],
+		"body": [
+			"<Div:$1-$2,$3>",
+		],
+		"description": "変数の除算"
+	},
+	"variable mod": {
+		"prefix": [
+			"variablemod",
+			"mod"
+		],
+		"body": [
+			"<Mod:$1-$2,$3>",
+		],
+		"description": "変数の剰余"
+	},
+	"selfswitch": {
+		"prefix": "selfswitch",
+		"body": "<SelfSwitch:$1,$2>",
+		"description": "セルフスイッチ"
+	},
+	"selfswitch on": {
+		"prefix": "selfswitchon",
+		"body": "<SelfSwitch:$1,ON>",
+		"description": "セルフスイッチオン"
+	},
+	"selfswitch off": {
+		"prefix": "selfswitchoff",
+		"body": "<SelfSwitch:$1,OFF>",
+		"description": "セルフスイッチオフ"
+	},
+	"timer": {
+		"prefix": "timer",
+		"body": "<Timer:,$1,$2,$3>",
+		"description": "タイマー"
+	},
+	"timer start": {
+		"prefix": "timerstart",
+		"body": "<Timer:,Start,$1,$2>",
+		"description": "タイマースタート"
+	},
+	"timer stop": {
+		"prefix": "timerstop",
+		"body": "<Timer:,Stop>",
+		"description": "タイマーストップ"
+	},
+	"if switch on": {
+		"prefix": "ifswitchon",
+		"body": [
+			"<If:Switches[$1],ON>",
+			"$2",
+			"<Else>",
+			"$3",
+			"<End>"
+		],
+		"description": "条件スイッチオン"
+	},
+	"if switch off": {
+		"prefix": "ifswitchoff",
+		"body": [
+			"<If:Switches[$1],OFF>",
+			"$2",
+			"<Else>",
+			"$3",
+			"<End>"
+		],
+		"description": "条件スイッチオフ"
+	},
+	"if variable equal": {
+		"prefix": [
+			"ifvariableequal",
+			"equal"
+		],
+		"body": [
+			"<If: Variables[$1], ==, $2>",
+			"$3",
+			"<Else>",
+			"$4",
+			"<End>"
+		],
+		"description": "条件変数イコール"
+	},
+	"if variable greater": {
+		"prefix": [
+			"ifvariablegreater",
+			"greater"
+		],
+		"body": [
+			"<If: Variables[$1], >, $2>",
+			"$3",
+			"<Else>",
+			"$4",
+			"<End>"
+		],
+		"description": "条件変数大なり"
+	},
+	"if variable greater equal": {
+		"prefix": [
+			"ifvariablegreaterequal",
+			"greaterequal"
+		],
+		"body": [
+			"<If: Variables[$1], >=, $2>",
+			"$3",
+			"<Else>",
+			"$4",
+			"<End>"
+		],
+		"description": "条件変数大なりイコール"
+	},
+	"if variable less": {
+		"prefix": [
+			"ifvariableless",
+			"less"
+		],
+		"body": [
+			"<If: Variables[$1], >, $2>",
+			"$3",
+			"<Else>",
+			"$4",
+			"<End>"
+		],
+		"description": "条件変数小なり"
+	},
+	"if variable less equal": {
+		"prefix": [
+			"ifvariablelessequal",
+			"lessequal"
+		],
+		"body": [
+			"<If: Variables[$1], >=, $2>",
+			"$3",
+			"<Else>",
+			"$4",
+			"<End>"
+		],
+		"description": "条件変数小なりイコール"
+	},
+	"if selfswitch on": {
+		"prefix": "ifselfswitchon",
+		"body": [
+			"<If:SelfSwitches[$1],ON>",
+			"$2",
+			"<Else>",
+			"$3",
+			"<End>"
+		],
+		"description": "条件セルフスイッチオン"
+	},
+	"if selfswitch off": {
+		"prefix": "ifselfswitchoff",
+		"body": [
+			"<If:SelfSwitches[$1],OFF>",
+			"$2",
+			"<Else>",
+			"$3",
+			"<End>"
+		],
+		"description": "条件セルフスイッチオフ"
+	},
+	"if actor skill": {
+		"prefix": "if skill",
+		"body": [
+			"<If:Actors[1$1],Skill,1$2>",
+			"$3",
+			"<Else>",
+			"$4",
+			"<End>"
+		],
+		"description": "条件スキル習得"
+	},
+	"if script": {
+		"prefix": "if script",
+		"body": [
+			"<If:Script,1$2>",
+			"$3",
+			"<Else>",
+			"$4",
+			"<End>"
+		],
+		"description": "条件スクリプト"
+	},
+	"loop": {
+		"prefix": "loop",
+		"body": [
+			"<Loop>",
+			"<RepeatAbove>"
+		],
+		"description": "ループ"
+	},
+	"break": {
+		"prefix": "break",
+		"body": "<BreakLoop>",
+		"description": "ループの中断"
+	},
+	"exit event": {
+		"prefix": "exiteventprocessing",
+		"body": "<ExitEventProcessing>",
+		"description": "イベント処理の中断"
+	},
+	"common event": {
+		"prefix": "commonevent",
+		"body": "<CommonEvent: $1>",
+		"description": "コモンイベント"
+	},
+	"label": {
+		"prefix": "label",
+		"body": "<Label:$1>",
+		"description": "ラベル"
+	},
+	"jump": {
+		"prefix": "labeljump",
+		"body": "<JumpToLabel:$1>",
+		"description": "ラベルジャンプ"
+	},
+	"comment<": {
+		"prefix": "comment<",
+		"body": [
+			"<Comment>"
+		],
+		"description": "注釈はじめ"
+	},
+	"comment>": {
+		"prefix": "comment>",
+		"body": [
+			"</Comment>"
+		],
+		"description": "注釈おわり"
+	},
+	"show picture": {
+		"prefix": [
+			"showpicture",
+			"picture"
+		],
+		"body": "<ShowPicture: $1, $2, Blend[$3][Normal]>",
+		"description": "ピクチャの表示"
+	},
+	"show picture position": {
+		"prefix": [
+			"showpictureposition",
+			"pictureposition"
+		],
+		"body": "<ShowPicture: $1, $2,Position[$3Left][$4][$5] Blend[$6][Normal]>",
+		"description": "ピクチャの表示　位置指定"
+	},
+	"move picture": {
+		"prefix": [
+			"movepicture",
+			"picture"
+		],
+		"body": "<MovePicture: $1, Blend[$2][Normal], Duration[$3]>",
+		"description": "ピクチャの移動"
+	},
+	"erase picture": {
+		"prefix": [
+			"erasepicture",
+			"picture"
+		],
+		"body": "<ErasePicture: $1>",
+		"description": "ピクチャの消去"
+	},
+	"wait": {
+		"prefix": "wait",
+		"body": "<Wait:$1>",
+		"description": "ウェイト"
+	},
+	"fadeout": {
+		"prefix": "fadeout",
+		"body": "<Fadeout>",
+		"description": "フェードアウト"
+	},
+	"fadein": {
+		"prefix": "fadein",
+		"body": "<Fadein>",
+		"description": "フェードイン"
+	},
+	"play bgm": {
+		"prefix": [
+			"playbgm",
+			"bgm"
+		],
+		"body": "<PlayBGM:$1>",
+		"description": "BGMの演奏"
+	},
+	"stop bgm": {
+		"prefix": [
+			"stopbgm",
+			"bgm"
+		],
+		"body": "<StopBGM>",
+		"description": "BGMの停止"
+	},
+	"fadeout bgm": {
+		"prefix": "fadeoutbgm",
+		"body": "<FadeoutBGM:$1>",
+		"description": "BGMのフェードアウト"
+	},
+	"save bgm": {
+		"prefix": "savebgm",
+		"body": "<SaveBGM>",
+		"description": "BGMの保存"
+	},
+	"replay bgm": {
+		"prefix": "replaybgm",
+		"body": "<ReplayBGM>",
+		"description": "BGMの再開"
+	},
+	"play bgs": {
+		"prefix": [
+			"playbgs",
+			"bgs"
+		],
+		"body": "<PlayBGS:$1>",
+		"description": "BGSの演奏"
+	},
+	"stop bgs": {
+		"prefix": [
+			"stopbgs",
+			"bgs"
+		],
+		"body": "<StopBGS>",
+		"description": "BGSの停止"
+	},
+	"fadeout bgs": {
+		"prefix": "fadeoutbgs",
+		"body": "<FadeoutBGS:$1>",
+		"description": "BGSのフェードアウト"
+	},
+	"play me": {
+		"prefix": "playme",
+		"body": "<PlayME:$1>",
+		"description": "MEの演奏"
+	},
+	"play se": {
+		"prefix": "playse",
+		"body": "<PlaySE:$1>",
+		"description": "SEの演奏"
+	},
+	"stop se": {
+		"prefix": "stopse",
+		"body": "<StopSE>",
+		"description": "SEの停止"
+	},
+	"script": {
+		"prefix": "script",
+		"body": [
+			"<Script>",
+			"</Script>"
+		],
+		"description": "スクリプト"
+	},
+	"plugin command": {
+		"prefix": "plugin command",
+		"body": "<PluginCommand:$1>",
+		"description": "プラグインコマンド"
+	},
+	"start scene": {
+		"prefix": "startscene",
+		"body": "<PluginCommand:START_SCENE>",
+		"description": "スタートシーン"
+	},
+	"end scene": {
+		"prefix": "endscene",
+		"body": "<PluginCommand:END_SCENE>",
+		"description": "エンドシーン"
+	},
+	"bgm comical": {
+		"prefix": "bgmcomical",
+		"body": "LNSM2_BGM19_Comical1",
+		"description": "BGM　コミカル"
+	},
+	"bgm scene8": {
+		"prefix": "bgmdatedaytime",
+		"body": "LNSM2_BGM36_Scene8",
+		"description": "BGM　デート昼"
+	},
+	"bgm scene9": {
+		"prefix": "bgmdateevening",
+		"body": "LNSM2_BGM37_Scene9",
+		"description": "BGM　デート夕方"
+	},
+	"flashscreen": {
+		"prefix": "flashscreen",
+		"body": "<FlashScreen: 255, 255, 255, 170, 60>",
+		"description": "フラッシュ"
+	},
+	"shakescreen": {
+		"prefix": "shakescreen",
+		"body": "<ShakeScreen: 5, 5, 60>",
+		"description": "シェイク"
+	},
+	"choice": {
+		"prefix": "choice",
+		"body": [
+			"<ShowChoices>",
+			"<When: はい>",
+			"$1",
+			"<When: いいえ>",
+			"$2",
+			"<End>"
+		],
+		"description": "選択肢"
+	},
+	"battle": {
+		"prefix": "battle",
+		"body": [
+			"<ShowChoices>",
+			"<When: はい>",
+			"$1",
+			"<When: いいえ>",
+			"$2",
+			"<End>"
+		],
+		"description": "選択肢"
+	},
+}
