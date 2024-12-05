@@ -524,13 +524,13 @@
 	"battle": {
 		"prefix": "battle",
 		"body": [
-			"<ShowChoices>",
-			"<When: はい>",
-			"$1",
-			"<When: いいえ>",
+			"<BattleProcessing: $1>",
+			"<IfWin>",
 			"$2",
+			"<IfLose>",
+			"$3",
 			"<End>"
 		],
-		"description": "選択肢"
+		"description": "戦闘"
 	},
 }
