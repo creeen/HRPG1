@@ -399,7 +399,7 @@
 			"playbgm",
 			"bgm"
 		],
-		"body": "<PlayBGM:$1>",
+		"body": "<PlayBGM:$1, 45, 100, 0>",
 		"description": "BGMの演奏"
 	},
 	"stop bgm": {
@@ -430,7 +430,7 @@
 			"playbgs",
 			"bgs"
 		],
-		"body": "<PlayBGS:$1>",
+		"body": "<PlayBGS:$1, 45, 100, 0>",
 		"description": "BGSの演奏"
 	},
 	"stop bgs": {
@@ -448,12 +448,12 @@
 	},
 	"play me": {
 		"prefix": "playme",
-		"body": "<PlayME:$1>",
+		"body": "<PlayME:$1, 45, 100, 0>",
 		"description": "MEの演奏"
 	},
 	"play se": {
 		"prefix": "playse",
-		"body": "<PlaySE:$1>",
+		"body": "<PlaySE:$1, 45, 100, 0>",
 		"description": "SEの演奏"
 	},
 	"stop se": {
