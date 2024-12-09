@@ -1,248 +1,182 @@
 <CommonEvent: 12>
 <Fadeout>
-<Switch: 126, ON>
-<PlayBGM: (R18)icyalove_11, 45, 100, 0>
+<PlayBGM: (R18)icyalove_16, 45, 100, 0>
 <Wait: 30>
 <ChangeTransparency: ON>
-<TransferPlayer: Direct[130][5][6], Retain, Black>
+<TransferPlayer: Direct[122][45][8], Retain, Black>
 <Fadein>
-
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[30]>おっとお嬢ちゃん。買っただけじゃまだ着られないよ。
-胸の部分のサイズが合わないだろ？ 採寸をしないと。
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[30]>バニー服のワイヤーを、各々の体に
-合った形にオーダーメイドで調節しているんだ。
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[2]>はぇ～、なるほど。
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[30]>だから、ね？
-ちょっとさわるから。胸開けて。
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[2]>ふぇっ？
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[32]>どうかした？　ほら、採寸でおっぱいの大きさを
-確かめなきゃいけないのは当然だろう。
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[32]>それにバニー服は繊細な商品だからね。
-手で直に正確な形を把握する必要がある。
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[2]>あんっ、そっそうなんですかっ。
-でも、わたし、おっぱいは敏感だから、
-丁寧にお願いします……
-<PlaySE:01_やや激しめの布擦れ音_正面, 85, 100, 0>
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[32]>（どうせこの女もフェル様のお手つきになるんだ。
-その前にこっちで楽しませてもらわなきゃな。）
-
-<Script>
-CBR-画像合成
-<２章素股採寸/1.png>
-</Script>
-
-<Script>
-$gameScreen.showPicture(11, "２章素股採寸/1", 0, 0, 0, 100, 100, 255, 0)
-</Script>
-<PlaySE:(R18)胸揺れ1, 45, 100, 0>
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-むにゅむにゅっ❤
-むにゅうっ❤
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[32]>ふむ、これは立派な代物だな。
-もちもちとした肌触りにハリもある。
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[2]>おっぱい、あんまりもみしだかないでっ、くださいっ。
-<PlayBGS:(R18)Ch北上No15_吐息, 35, 100, 0>
-
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[2]>（男の人のごつごつした手でまさぐられていると、
-なんだかムズムズしてどうしようもなくなっちゃう……）
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[2]>（はやめに採寸おわらせてもらわなきゃっ…）
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[32]>ふぅん、なるほど。乳輪も乳首も相当な大きさだ。
-これは調整のしがいがありそうだ。
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[32]>どれ。
-
-<Script>
-CBR-画像合成
-<２章素股採寸/2.png>
-</Script>
-
-<Script>
-$gameScreen.showPicture(11, "２章素股採寸/2", 0, 0, 0, 100, 100, 255, 0)
-</Script>
-
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[2]>んんっ！　きゃうううんっ❤
-いきなり何するのぉっ！
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-乳首を強くつねられて、思わずサクラは感じてしまった。
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[32]>何って、乳首が勃ったときのサイズを確認しているんだ。
-カップとこすれると嫌だろ？
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[32]>おお、デカ乳首がいやらしく大きくなってきたぞ。
-物欲しげにひくつかせやがって。
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[32]>この淫乱、ちょっと大きさを測っているだけなのにこっちが
-変態行為をしてるみたいじゃないか。
-
-<Script>
-CBR-画像合成
-<２章素股採寸/3.png>
-</Script>
-
-<Script>
-$gameScreen.showPicture(11, "２章素股採寸/3", 0, 0, 0, 100, 100, 255, 0)
-</Script>
-<PlayBGS:(R18)Ch北上No22_喘ぎ声(小), 45, 100, 0>
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[2]>あんっ♥だって、さわりかたがっ！
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[32]>うるさい！
-こんなデカ乳ぶら下げてよお、服がパツンパツンでかわいそうだろ！
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[32]>反省しろっ！反省しろっ！
-
-<Script>
-CBR-画像合成
-<２章素股採寸/2.png>
-</Script>
-
-<Script>
-$gameScreen.showPicture(11, "２章素股採寸/2", 0, 0, 0, 100, 100, 255, 0)
-</Script>
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[2]>おっおぎょおっ！
-ちくびっいじめちゃだめぇっ！
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[32]>もみまくっておっぱいを縮めなきゃ入んないだろ！
-こっちも大変なんだ！おらっ！おらっ！
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[2]>はぅぅぅんっ♥んあっ♥らんぼうにしないでっ♥
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[32]>胸だけで感じるメス牛がよ。
-みだりに男を勃起させやがって、商売にならないだろ。
-<Script>
-CBR-画像合成
-<２章素股採寸/3.png>
-</Script>
-
-<Script>
-$gameScreen.showPicture(11, "２章素股採寸/3", 0, 0, 0, 100, 100, 255, 0)
-</Script>
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[2]>おしりにおちんちん、こすりつけないでっ！
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[32]>お～丸いデカケツにちんぽこすりつけるの気持ちいい～。
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[2]>（はぁっはぁっ…なんか様子がおかしい……
-もしかして、これって採寸なんかじゃない…!?）
-
-<Script>
-CBR-画像合成
-<２章素股採寸/5.png>
-<２章素股採寸/7.png>
-</Script>
-
-<Script>
-$gameScreen.showPicture(11, "２章素股採寸/5", 0, 0, 0, 100, 100, 255, 0)
-</Script>
-<Script>
-$gameScreen.showPicture(11, "２章素股採寸/7", 0, 0, 0, 100, 100, 255, 0)
-</Script>
-<PlaySE:22_素股開始、粘着質な水音、継続01, 45, 100, 0>
-<PlaySE:(R18)種付けピストン１, 45, 100, 0>
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[2]>（こうなったら、射精させて終わらせるしか……
-忍法、すまたのじゅつっ！）
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-しゅっしゅっ♥
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[32]>おっおっ肉棒がうまい具合に挟まれてっ。
-うらすじがぞくぞくしてくるっ！
-
-<Script>
-CBR-画像合成
-<２章素股採寸/6.png>
-<２章素股採寸/8.png>
-</Script>
-
-<Script>
-$gameScreen.showPicture(11, "２章素股採寸/6", 0, 0, 0, 100, 100, 255, 0)
-</Script>
-<Script>
-$gameScreen.showPicture(11, "２章素股採寸/8", 0, 0, 0, 100, 100, 255, 0)
-</Script>
-
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-ぬちゅっぱちゅっ❤
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[32]>ちんぽに媚びるように尻を動かしやがってっ、
-この淫乱おんなっ！
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[2]>はいぃ、えっちな子でもいいからぁっ、射精してっ。
-サクラの体をっ、はやくさいすんしてぇっ。
-<Script>
-CBR-画像合成
-<２章素股採寸/6.png>
-<２章素股採寸/7.png>
-</Script>
-
-<Script>
-$gameScreen.showPicture(11, "２章素股採寸/6", 0, 0, 0, 100, 100, 255, 0)
-</Script>
-<Script>
-$gameScreen.showPicture(11, "２章素股採寸/7", 0, 0, 0, 100, 100, 255, 0)
-</Script>
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[32]>うぉっエロっ！　腰が勝手にうごくっ！
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-しこしこしこっ！
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[32]>採寸しないといけないのにっ
-誘惑しやがってっこうなりゃおちんぽ定規で測ってやる！
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-しゅこっしゅこっしゅこっ！
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[32]>あー肉厚の太ももにぎちぎちに固められて
-気持ちいい、うっ、カリ首が引っかかって…！
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[2]>ここを締めちゃえばっ！
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-にゅちゅちゅっ！
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[32]>うおっ圧迫やばいっ出る！
-
-<Script>
-CBR-画像合成
-<２章素股採寸/6.png>
-<２章素股採寸/9.png>
-</Script>
-
-<Script>
-$gameScreen.showPicture(11, "２章素股採寸/6", 0, 0, 0, 100, 100, 255, 0)
-</Script>
-<Script>
-$gameScreen.showPicture(11, "２章素股採寸/9", 0, 0, 0, 100, 100, 255, 0)
-</Script>
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-びゅる、びゅるっ、びゅるっ！
-<StopBGS>
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-白濁液が太ももにたらたらと流れていく…
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[32]>はぁっはぁっはぁっ……
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[2]>ん、なんとかおわった……
-<Face: (0)><Background: Window><WindowPosition: Bottom>
-\n<\n[2]>でも、いろじかけのじゅつ、つかっちゃった……
-<Comment>
-暗転 場面転換
-</comment>
 <Comment>
 間にエロシーン入れる
 </comment>
+<Comment>
+とりあえずまとめて画像表示
+</comment>
+<Script>
+CBR-画像合成
+<２章宇佐乳首ズリ/1.png>
+</Script>
+
+<Script>
+$gameScreen.showPicture(11, "２章宇佐乳首ズリ/1", 0, 0, 0, 100, 100, 255, 0)
+</Script>
+
+<Script>
+CBR-画像合成
+<２章宇佐乳首ズリ/2.png>
+</Script>
+
+<Script>
+$gameScreen.showPicture(11, "２章宇佐乳首ズリ/2", 0, 0, 0, 100, 100, 255, 0)
+</Script>
+
+<Script>
+CBR-画像合成
+<２章宇佐乳首ズリ/3.png>
+</Script>
+
+<Script>
+$gameScreen.showPicture(11, "２章宇佐乳首ズリ/3", 0, 0, 0, 100, 100, 255, 0)
+</Script>
+
+<Script>
+CBR-画像合成
+<２章宇佐乳首ズリ/4.png>
+</Script>
+
+<Script>
+$gameScreen.showPicture(11, "２章宇佐乳首ズリ/4", 0, 0, 0, 100, 100, 255, 0)
+</Script>
+
+<Script>
+CBR-画像合成
+<２章宇佐乳首ズリ/5.png>
+</Script>
+
+<Script>
+$gameScreen.showPicture(11, "２章宇佐乳首ズリ/5", 0, 0, 0, 100, 100, 255, 0)
+</Script>
+
+<Script>
+CBR-画像合成
+<２章宇佐乳首ズリ/6.png>
+</Script>
+
+<Script>
+$gameScreen.showPicture(11, "２章宇佐乳首ズリ/6", 0, 0, 0, 100, 100, 255, 0)
+</Script>
+
+<Script>
+CBR-画像合成
+<２章宇佐乳首ズリ/7.png>
+</Script>
+
+<Script>
+$gameScreen.showPicture(11, "２章宇佐乳首ズリ/7", 0, 0, 0, 100, 100, 255, 0)
+</Script>
+
+<Comment>
+泥棒のエクスキューズが3つ
+❶義賊　取り戻す
+❷上司の命令
+❸エロ　しゃーねえなあ。「いいこと」してやるよ
+3つめでぐらつくという設定
+</Comment>
+
+
+どぼっ！
+
+\n<\n[1]>うぐっ！
+
+<Comment>
+スニペットって文の途中からでも打てるようになんないの？
+</Comment>
+
+\n<\n[10]>おらっおらっ嬉しいだろ？　抵抗はやめて
+アタシの「ごほうび」受け取りなよ、そのちんぽでさぁ！
+
+\n<\n[1]>
+
+\n<\n[10]>
+
+
+ほーらちんぽは正直にあたしのおっぱいに触りたいって
+ぴくぴくしてるぞ？　ぎゃははは！楽しいなぁ！
+
+
+出島の前の処刑場見たか？　すぐ殺しちゃうなんて『ぬるい』よなぁ。
+ま、処刑慣れしてない田舎の非人なんてあんなものか。
+
+あたしのおっぱいで死ぬほど気持ちよくなりたいよな？
+
+
+乳首責めだけなら浮気じゃないだろ？
+あたしともっと仲良しになろうぜ～❤
+それとも、あたしの乳首コキは気持ちよくないってか？ああん？
+
+別にそういうことじゃっ……
+
+あーもうじれったいな！
+これが良いんだろ？　おらっおらっ！
+
+（本当は屈服させるのがイチバン良いけど、最初に快楽をちんぽにじっくり
+植え付ければこっちのもんだからな…❤）
+
+
+びゅっびゅくっびゅっ！！！
+
+亀頭から絞り出された精液が乳首に
+跳ね返ってあたりを白濁に染める
+
+おあっ！　あたしのデカチチ越しにも見えるえっぐい射精～♪
+こんなのおまんこに射精されちゃったらどうしよ～❤
+
+おまんこって…うっ…！
+
+びゅっびゅっびゅるっ
+
+はぁはぁ…なんだかすごい出るっ……！
+
+（ふふ❤あたしが最初に打った秘孔術が効いてる効いてる❤
+ところてんみたいに濃いのがでてくんじゃん❤）
+
+おまんこ❤って聞いただけで射精しちゃうなんて、
+小太郎っちてば、ヘンタ～イ❤
+
+
 <CommonEvent: 59>
+
+
+
+<Comment>
+
+エロ要素
+こっそり乳首コキ
+逆レイプで快感を覚えさせてから→色仕掛け（ちょっと乳首見せたら腰へコるようになる）
+
+こんなことしてる場合じゃない（時間＆不貞）
+でも、それをパワーで押し付ける
+
+忍び要素
+乳首ズリの術？は？
+金縛りの術　術じゃなくて縛鎖術　
+
+
+<Comment>
+犬神人が処刑を担当してたんだっけか？
+</Comment>
+
+あたしはあんなものじゃないぜ❤
+
+腕にかけた鎖をじゃらつかせると、金属のこすれる音が悲鳴のように響いた。
+
+（罪悪感を与えて行動を縛って、あたしの便利な人形にしたいな～
+顔も好みだし…なにより、『他人の男』ってのが良い）
+
+ストーリー要素（前後関係）
+特に思いつかない。この手裏剣使ってあとで味方してくれるってのもなあ。
+このキャラクターに期待されているのは冷酷無比な悪女って感じか？　それとも女ヤンキー？
+実は良いやつ的なキャラじゃない　自然のその傾向に陥りがちだから気をつけなくては
+
+ここでもっと時間があったら小笹とのカラミルートもしたいけど…
+
+</Comment>
