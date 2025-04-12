@@ -185,7 +185,7 @@ CBR-画像合成
 $gameScreen.showPicture(11, "２章宇佐乳首ズリ/3", 0, 0, 0, 100, 100, 255, 0)
 </Script>
 
-StopSE>
+<StopSE>
 <PlaySE:(R18)手コキ６（中速～高速）, 75, 100, 0>
 <PlaySE:(R18)クチュ音９（ノーマル～高速）, 55, 100, 0>
 
